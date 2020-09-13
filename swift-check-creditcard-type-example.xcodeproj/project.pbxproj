@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E3B3D2250E53DC001F2CC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3B3D1250E53DC001F2CC5 /* AppDelegate.swift */; };
+		04E3B3D4250E53DC001F2CC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3B3D3250E53DC001F2CC5 /* SceneDelegate.swift */; };
+		04E3B3D6250E53DC001F2CC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3B3D5250E53DC001F2CC5 /* ViewController.swift */; };
+		04E3B3D9250E53DC001F2CC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3B3D7250E53DC001F2CC5 /* Main.storyboard */; };
+		04E3B3DB250E53DE001F2CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3B3DA250E53DE001F2CC5 /* Assets.xcassets */; };
+		04E3B3DE250E53DE001F2CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3B3DC250E53DE001F2CC5 /* LaunchScreen.storyboard */; };
+		04E3B3E9250E53DE001F2CC5 /* swift_check_creditcard_type_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3B3E8250E53DE001F2CC5 /* swift_check_creditcard_type_exampleTests.swift */; };
+		04E3B3F4250E53DE001F2CC5 /* swift_check_creditcard_type_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3B3F3250E53DE001F2CC5 /* swift_check_creditcard_type_exampleUITests.swift */; };
+		1276296E2FB0ADD404FFB7DB /* Pods_swift_check_creditcard_type_exampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A92860BB0B1F72BE3C53CD /* Pods_swift_check_creditcard_type_exampleTests.framework */; };
+		A1F5A761BC16070E74A72502 /* Pods_swift_check_creditcard_type_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC62ABB9903118D54FD23C37 /* Pods_swift_check_creditcard_type_example.framework */; };
+		C6549BB11DFFB459185499E5 /* Pods_swift_check_creditcard_type_example_swift_check_creditcard_type_exampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2A1236B5C14CCC43DF7CDE /* Pods_swift_check_creditcard_type_example_swift_check_creditcard_type_exampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E3B3E5250E53DE001F2CC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E3B3C6250E53DC001F2CC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E3B3CD250E53DC001F2CC5;
+			remoteInfo = "swift-check-creditcard-type-example";
+		};
+		04E3B3F0250E53DE001F2CC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E3B3C6250E53DC001F2CC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E3B3CD250E53DC001F2CC5;
+			remoteInfo = "swift-check-creditcard-type-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E3B3CE250E53DC001F2CC5 /* swift-check-creditcard-type-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-check-creditcard-type-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E3B3D1250E53DC001F2CC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E3B3D3250E53DC001F2CC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04E3B3D5250E53DC001F2CC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04E3B3D8250E53DC001F2CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E3B3DA250E53DE001F2CC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E3B3DD250E53DE001F2CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E3B3DF250E53DE001F2CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E3B3E4250E53DE001F2CC5 /* swift-check-creditcard-type-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-check-creditcard-type-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E3B3E8250E53DE001F2CC5 /* swift_check_creditcard_type_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_check_creditcard_type_exampleTests.swift; sourceTree = "<group>"; };
+		04E3B3EA250E53DE001F2CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E3B3EF250E53DE001F2CC5 /* swift-check-creditcard-type-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-check-creditcard-type-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E3B3F3250E53DE001F2CC5 /* swift_check_creditcard_type_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_check_creditcard_type_exampleUITests.swift; sourceTree = "<group>"; };
+		04E3B3F5250E53DE001F2CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320162AD7A5D8116D12E7208 /* Pods-swift-check-creditcard-type-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-check-creditcard-type-example.release.xcconfig"; path = "Target Support Files/Pods-swift-check-creditcard-type-example/Pods-swift-check-creditcard-type-example.release.xcconfig"; sourceTree = "<group>"; };
+		57C370BF4B3BE7F9024B7A3D /* Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests.release.xcconfig"; path = "Target Support Files/Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests/Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C2A1236B5C14CCC43DF7CDE /* Pods_swift_check_creditcard_type_example_swift_check_creditcard_type_exampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_check_creditcard_type_example_swift_check_creditcard_type_exampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A92860BB0B1F72BE3C53CD /* Pods_swift_check_creditcard_type_exampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_check_creditcard_type_exampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE06BA730CD22F2A19C696F /* Pods-swift-check-creditcard-type-exampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-check-creditcard-type-exampleTests.debug.xcconfig"; path = "Target Support Files/Pods-swift-check-creditcard-type-exampleTests/Pods-swift-check-creditcard-type-exampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7889E0CF9343D47B1B2F17A /* Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests/Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A78E9AF984BF90DA69847210 /* Pods-swift-check-creditcard-type-exampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-check-creditcard-type-exampleTests.release.xcconfig"; path = "Target Support Files/Pods-swift-check-creditcard-type-exampleTests/Pods-swift-check-creditcard-type-exampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC62ABB9903118D54FD23C37 /* Pods_swift_check_creditcard_type_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_check_creditcard_type_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15D46D62A4AFCAFD4411B3B /* Pods-swift-check-creditcard-type-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-check-creditcard-type-example.debug.xcconfig"; path = "Target Support Files/Pods-swift-check-creditcard-type-example/Pods-swift-check-creditcard-type-example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E3B3CB250E53DC001F2CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F5A761BC16070E74A72502 /* Pods_swift_check_creditcard_type_example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3B3E1250E53DE001F2CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1276296E2FB0ADD404FFB7DB /* Pods_swift_check_creditcard_type_exampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3B3EC250E53DE001F2CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6549BB11DFFB459185499E5 /* Pods_swift_check_creditcard_type_example_swift_check_creditcard_type_exampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E3B3C5250E53DC001F2CC5 = {
+			isa = PBXGroup;
+			children = (
+				04E3B3D0250E53DC001F2CC5 /* swift-check-creditcard-type-example */,
+				04E3B3E7250E53DE001F2CC5 /* swift-check-creditcard-type-exampleTests */,
+				04E3B3F2250E53DE001F2CC5 /* swift-check-creditcard-type-exampleUITests */,
+				04E3B3CF250E53DC001F2CC5 /* Products */,
+				A063AD1A54907DC9212E49BE /* Pods */,
+				22ACA25FBC5D2929466E1238 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04E3B3CF250E53DC001F2CC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E3B3CE250E53DC001F2CC5 /* swift-check-creditcard-type-example.app */,
+				04E3B3E4250E53DE001F2CC5 /* swift-check-creditcard-type-exampleTests.xctest */,
+				04E3B3EF250E53DE001F2CC5 /* swift-check-creditcard-type-exampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E3B3D0250E53DC001F2CC5 /* swift-check-creditcard-type-example */ = {
+			isa = PBXGroup;
+			children = (
+				04E3B3D1250E53DC001F2CC5 /* AppDelegate.swift */,
+				04E3B3D3250E53DC001F2CC5 /* SceneDelegate.swift */,
+				04E3B3D5250E53DC001F2CC5 /* ViewController.swift */,
+				04E3B3D7250E53DC001F2CC5 /* Main.storyboard */,
+				04E3B3DA250E53DE001F2CC5 /* Assets.xcassets */,
+				04E3B3DC250E53DE001F2CC5 /* LaunchScreen.storyboard */,
+				04E3B3DF250E53DE001F2CC5 /* Info.plist */,
+			);
+			path = "swift-check-creditcard-type-example";
+			sourceTree = "<group>";
+		};
+		04E3B3E7250E53DE001F2CC5 /* swift-check-creditcard-type-exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E3B3E8250E53DE001F2CC5 /* swift_check_creditcard_type_exampleTests.swift */,
+				04E3B3EA250E53DE001F2CC5 /* Info.plist */,
+			);
+			path = "swift-check-creditcard-type-exampleTests";
+			sourceTree = "<group>";
+		};
+		04E3B3F2250E53DE001F2CC5 /* swift-check-creditcard-type-exampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04E3B3F3250E53DE001F2CC5 /* swift_check_creditcard_type_exampleUITests.swift */,
+				04E3B3F5250E53DE001F2CC5 /* Info.plist */,
+			);
+			path = "swift-check-creditcard-type-exampleUITests";
+			sourceTree = "<group>";
+		};
+		22ACA25FBC5D2929466E1238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC62ABB9903118D54FD23C37 /* Pods_swift_check_creditcard_type_example.framework */,
+				6C2A1236B5C14CCC43DF7CDE /* Pods_swift_check_creditcard_type_example_swift_check_creditcard_type_exampleUITests.framework */,
+				81A92860BB0B1F72BE3C53CD /* Pods_swift_check_creditcard_type_exampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A063AD1A54907DC9212E49BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F15D46D62A4AFCAFD4411B3B /* Pods-swift-check-creditcard-type-example.debug.xcconfig */,
+				320162AD7A5D8116D12E7208 /* Pods-swift-check-creditcard-type-example.release.xcconfig */,
+				A7889E0CF9343D47B1B2F17A /* Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests.debug.xcconfig */,
+				57C370BF4B3BE7F9024B7A3D /* Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests.release.xcconfig */,
+				8CE06BA730CD22F2A19C696F /* Pods-swift-check-creditcard-type-exampleTests.debug.xcconfig */,
+				A78E9AF984BF90DA69847210 /* Pods-swift-check-creditcard-type-exampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E3B3CD250E53DC001F2CC5 /* swift-check-creditcard-type-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E3B3F8250E53DE001F2CC5 /* Build configuration list for PBXNativeTarget "swift-check-creditcard-type-example" */;
+			buildPhases = (
+				679C67E23431695C92BBD6CD /* [CP] Check Pods Manifest.lock */,
+				04E3B3CA250E53DC001F2CC5 /* Sources */,
+				04E3B3CB250E53DC001F2CC5 /* Frameworks */,
+				04E3B3CC250E53DC001F2CC5 /* Resources */,
+				0C8E1EBDE2E71EA1FDC77B98 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-check-creditcard-type-example";
+			productName = "swift-check-creditcard-type-example";
+			productReference = 04E3B3CE250E53DC001F2CC5 /* swift-check-creditcard-type-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E3B3E3250E53DE001F2CC5 /* swift-check-creditcard-type-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E3B3FB250E53DE001F2CC5 /* Build configuration list for PBXNativeTarget "swift-check-creditcard-type-exampleTests" */;
+			buildPhases = (
+				B436918E291AE934F73E01BE /* [CP] Check Pods Manifest.lock */,
+				04E3B3E0250E53DE001F2CC5 /* Sources */,
+				04E3B3E1250E53DE001F2CC5 /* Frameworks */,
+				04E3B3E2250E53DE001F2CC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E3B3E6250E53DE001F2CC5 /* PBXTargetDependency */,
+			);
+			name = "swift-check-creditcard-type-exampleTests";
+			productName = "swift-check-creditcard-type-exampleTests";
+			productReference = 04E3B3E4250E53DE001F2CC5 /* swift-check-creditcard-type-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E3B3EE250E53DE001F2CC5 /* swift-check-creditcard-type-exampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E3B3FE250E53DE001F2CC5 /* Build configuration list for PBXNativeTarget "swift-check-creditcard-type-exampleUITests" */;
+			buildPhases = (
+				ECE314C1A6630493827DFAE6 /* [CP] Check Pods Manifest.lock */,
+				04E3B3EB250E53DE001F2CC5 /* Sources */,
+				04E3B3EC250E53DE001F2CC5 /* Frameworks */,
+				04E3B3ED250E53DE001F2CC5 /* Resources */,
+				24AFBA765D0292A66E4E5C3C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E3B3F1250E53DE001F2CC5 /* PBXTargetDependency */,
+			);
+			name = "swift-check-creditcard-type-exampleUITests";
+			productName = "swift-check-creditcard-type-exampleUITests";
+			productReference = 04E3B3EF250E53DE001F2CC5 /* swift-check-creditcard-type-exampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E3B3C6250E53DC001F2CC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Arif Hossen";
+				TargetAttributes = {
+					04E3B3CD250E53DC001F2CC5 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					04E3B3E3250E53DE001F2CC5 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 04E3B3CD250E53DC001F2CC5;
+					};
+					04E3B3EE250E53DE001F2CC5 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 04E3B3CD250E53DC001F2CC5;
+					};
+				};
+			};
+			buildConfigurationList = 04E3B3C9250E53DC001F2CC5 /* Build configuration list for PBXProject "swift-check-creditcard-type-example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E3B3C5250E53DC001F2CC5;
+			productRefGroup = 04E3B3CF250E53DC001F2CC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E3B3CD250E53DC001F2CC5 /* swift-check-creditcard-type-example */,
+				04E3B3E3250E53DE001F2CC5 /* swift-check-creditcard-type-exampleTests */,
+				04E3B3EE250E53DE001F2CC5 /* swift-check-creditcard-type-exampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E3B3CC250E53DC001F2CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3B3DE250E53DE001F2CC5 /* LaunchScreen.storyboard in Resources */,
+				04E3B3DB250E53DE001F2CC5 /* Assets.xcassets in Resources */,
+				04E3B3D9250E53DC001F2CC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3B3E2250E53DE001F2CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3B3ED250E53DE001F2CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C8E1EBDE2E71EA1FDC77B98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-check-creditcard-type-example/Pods-swift-check-creditcard-type-example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-check-creditcard-type-example/Pods-swift-check-creditcard-type-example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift-check-creditcard-type-example/Pods-swift-check-creditcard-type-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24AFBA765D0292A66E4E5C3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests/Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests/Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests/Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		679C67E23431695C92BBD6CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-check-creditcard-type-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B436918E291AE934F73E01BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-check-creditcard-type-exampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE314C1A6630493827DFAE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E3B3CA250E53DC001F2CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3B3D6250E53DC001F2CC5 /* ViewController.swift in Sources */,
+				04E3B3D2250E53DC001F2CC5 /* AppDelegate.swift in Sources */,
+				04E3B3D4250E53DC001F2CC5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3B3E0250E53DE001F2CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3B3E9250E53DE001F2CC5 /* swift_check_creditcard_type_exampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3B3EB250E53DE001F2CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3B3F4250E53DE001F2CC5 /* swift_check_creditcard_type_exampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E3B3E6250E53DE001F2CC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E3B3CD250E53DC001F2CC5 /* swift-check-creditcard-type-example */;
+			targetProxy = 04E3B3E5250E53DE001F2CC5 /* PBXContainerItemProxy */;
+		};
+		04E3B3F1250E53DE001F2CC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E3B3CD250E53DC001F2CC5 /* swift-check-creditcard-type-example */;
+			targetProxy = 04E3B3F0250E53DE001F2CC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E3B3D7250E53DC001F2CC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E3B3D8250E53DC001F2CC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E3B3DC250E53DE001F2CC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E3B3DD250E53DE001F2CC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E3B3F6250E53DE001F2CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E3B3F7250E53DE001F2CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E3B3F9250E53DE001F2CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15D46D62A4AFCAFD4411B3B /* Pods-swift-check-creditcard-type-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-check-creditcard-type-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifhossen.swift-check-creditcard-type-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E3B3FA250E53DE001F2CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 320162AD7A5D8116D12E7208 /* Pods-swift-check-creditcard-type-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-check-creditcard-type-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifhossen.swift-check-creditcard-type-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04E3B3FC250E53DE001F2CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE06BA730CD22F2A19C696F /* Pods-swift-check-creditcard-type-exampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-check-creditcard-type-exampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifhossen.swift-check-creditcard-type-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-check-creditcard-type-example.app/swift-check-creditcard-type-example";
+			};
+			name = Debug;
+		};
+		04E3B3FD250E53DE001F2CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A78E9AF984BF90DA69847210 /* Pods-swift-check-creditcard-type-exampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-check-creditcard-type-exampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifhossen.swift-check-creditcard-type-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-check-creditcard-type-example.app/swift-check-creditcard-type-example";
+			};
+			name = Release;
+		};
+		04E3B3FF250E53DE001F2CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7889E0CF9343D47B1B2F17A /* Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-check-creditcard-type-exampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifhossen.swift-check-creditcard-type-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swift-check-creditcard-type-example";
+			};
+			name = Debug;
+		};
+		04E3B400250E53DE001F2CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C370BF4B3BE7F9024B7A3D /* Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-check-creditcard-type-exampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifhossen.swift-check-creditcard-type-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swift-check-creditcard-type-example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E3B3C9250E53DC001F2CC5 /* Build configuration list for PBXProject "swift-check-creditcard-type-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3B3F6250E53DE001F2CC5 /* Debug */,
+				04E3B3F7250E53DE001F2CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E3B3F8250E53DE001F2CC5 /* Build configuration list for PBXNativeTarget "swift-check-creditcard-type-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3B3F9250E53DE001F2CC5 /* Debug */,
+				04E3B3FA250E53DE001F2CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E3B3FB250E53DE001F2CC5 /* Build configuration list for PBXNativeTarget "swift-check-creditcard-type-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3B3FC250E53DE001F2CC5 /* Debug */,
+				04E3B3FD250E53DE001F2CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E3B3FE250E53DE001F2CC5 /* Build configuration list for PBXNativeTarget "swift-check-creditcard-type-exampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3B3FF250E53DE001F2CC5 /* Debug */,
+				04E3B400250E53DE001F2CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E3B3C6250E53DC001F2CC5 /* Project object */;
+}

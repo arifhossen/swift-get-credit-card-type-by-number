@@ -1,0 +1,16 @@
+PODS:
+  - CCValidator (1.2.0)
+
+DEPENDENCIES:
+  - CCValidator
+
+SPEC REPOS:
+  trunk:
+    - CCValidator
+
+SPEC CHECKSUMS:
+  CCValidator: 19c090b536c0152863795aa291bf7be3ffccf457
+
+PODFILE CHECKSUM: eaf434552092bf8f5a23adfef530ff2add3baf9e
+
+COCOAPODS: 1.9.3

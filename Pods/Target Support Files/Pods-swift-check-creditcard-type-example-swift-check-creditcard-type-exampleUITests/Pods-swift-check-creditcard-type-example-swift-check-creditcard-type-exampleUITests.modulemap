@@ -1,0 +1,6 @@
+framework module Pods_swift_check_creditcard_type_example_swift_check_creditcard_type_exampleUITests {
+  umbrella header "Pods-swift-check-creditcard-type-example-swift-check-creditcard-type-exampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
